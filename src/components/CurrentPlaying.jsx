@@ -63,7 +63,7 @@ const CurrentPlaying = () => {
             <img
               src={musik.albumImageUrl}
               alt={musik.title}
-              className="w-full h-40 md:h-60 object-cover rounded-t-lg"
+              className="w-full h-52 md:h-60 object-cover rounded-t-lg"
             />
           </div>
           <div className="p-4">
