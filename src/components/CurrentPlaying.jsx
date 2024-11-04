@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchDataSpoty } from "../lib/fetchData";
 import LoadingCurrentPlaying from "./ui/LoadingCurrentPlaying";
 
-import ButtonPreview from "./ui/buttonPreview";
+import ButtonPreview from "./ui/ButtonPreview";
 import NoMusicPlaying from "./ui/NoMusicPlaying";
 
 const CurrentPlaying = () => {
