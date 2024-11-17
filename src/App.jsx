@@ -41,7 +41,9 @@ const App = () => {
         <div className="bg-gray-800/95 md:rounded-xl shadow-2xl overflow-hidden max-w-4xl w-full shadow-white/60">
           <div className="pt-20 pb-6 px-2 md:p-6 min-h-80 ">
             <h1 className="text-3xl font-bold mb-6 text-center">
-              Musik Favorit Saya
+              {activeTab === "playing"
+                ? "Musik Yang Sedang Saya Putar"
+                : "Musik Favorit Saya"}
             </h1>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {tabs.map((tab) => (
