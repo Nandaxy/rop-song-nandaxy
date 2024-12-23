@@ -43,7 +43,7 @@ const App = () => {
             <h1 className="text-3xl font-bold mb-6 text-center">
               {activeTab === "playing"
                 ? "Musik Yang Sedang Saya Putar"
-                : "Musik Favorit Saya"}
+                : "Spotify Wrapped"}
             </h1>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {tabs.map((tab) => (
