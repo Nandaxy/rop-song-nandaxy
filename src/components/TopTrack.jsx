@@ -24,13 +24,13 @@ const TopTrack = ({ time_range }) => {
 
   return (
     <div className="bg-gray-700  p-6 rounded-lg shadow-md shadow-black/30">
-      <h1 className="text-xl font-semibold text-center mb-5">
-        {time_range === "long_term"
-          ? "10 Musik Favorit Saya Dalam 1 Tahun Terakhir"
-          : time_range === "medium_term"
-          ? "10 Musik Favorit Saya Dalam 6 Bulan Terakhir"
-          : "10 Musik Favorit Saya Dalam 1 Bulan Terakhir"}
-      </h1>
+<h1 className="text-xl font-semibold text-center mb-5">
+  {time_range === "long_term"
+    ? "10 Musik yang Sering Saya Putar Dalam 1 Tahun Terakhir"
+    : time_range === "medium_term"
+    ? "10 Musik yang Sering Saya Putar Dalam 6 Bulan Terakhir"
+    : "10 Musik yang Sering Saya Putar Dalam 1 Bulan Terakhir"}
+</h1>
       {isLoading ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {Array.from({ length: 10 }).map((_, index) => (
